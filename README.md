@@ -1,5 +1,7 @@
 # AI Chatbot Project
 
+live app link:https://aichatbotproject-pprwxuhgapvvwn9q4jwzxw.streamlit.app/
+
 A simple AI Chatbot built using Streamlit and LangChain with Mistral AI.
 
 ## Features
