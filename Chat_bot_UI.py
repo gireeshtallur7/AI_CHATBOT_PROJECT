@@ -6,7 +6,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 load_dotenv()
 
-st.write("API Key:", os.getenv("MISTRAL_API_KEY"))
+st.write("API Key Found:", "MISTRAL_API_KEY" in st.secrets)
 
 llm_model = ChatMistralAI(
     model="mistral-small-2603",
